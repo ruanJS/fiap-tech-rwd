@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Rodape from "./components/Rodape"
+import Conteudo from "./components/Conteudo"
+import { BrowserRouter, Router, Switch } from "react-router-dom"
+import { createElement } from "react";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
+    <Router>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+        <Header />
+        <Switch>
+          <Router path="/" exact component={Principal} />
+          <Router path="/problema" component={Problema} />
+          <Router path="/solução" component={Solução} />
+          <Router path="/integrantes" component={Integrantes} />
+          <Router component={Erro404} />
+        </Switch>
+      <Rodape />
+    </div>  
+    </Router>
+  );
+}
+export default function Header(props) {
+
+    return (
+        <>
+            <header>
+                <h1>Porto Seguro</h1>
+                {/*Recuperar prop.children de Lista */}
+
+                <ul>
+                    {props.children.map((item, index) => {
+                        createElement("li", { key: index }, item);
+                        return item;
+                    })}
+                </ul>
+                <div className="input-pesquisa">
+                    <input type="text" placeholder="Pesquisar" />
+                    <button type="submit">Pesquisar</button>
+                </div>
+            </header>
+        </>
+    );
 }
 
-export default App
+
