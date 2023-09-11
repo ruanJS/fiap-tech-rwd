@@ -1,26 +1,15 @@
-import logo1 from "./public/facebook-64.png"
-import logo2 from "./public/instagram.png"
-import logo3 from "./public/youtube.png"
-
 export default function Rodape(){
 
-    const rodape = [
-        {image: logo1, text: 'Logo facebook'},
-        {image: logo2, text: 'Logo instagram'},
-        {image: logo3, text: 'Logo youtube'},
-    ]
 
     return(
         <>
             <footer>
-                <div>
+                <div className="Footer">
                     <ul>
-                        {footerItems.map((item, index) => (
-                            <li key={index}>
-                                <img src={item.image} alt={item.text}/>
-                                {item.text}
-                            </li>
-                        ))}
+                        <img src="./public/logo-porto.png" alt="" />
+                        <li><a href="#Instagram"><img src="./public/instagram.png" alt="" /></a></li>
+                        <li><a href="#X"><img src="./public/twitter-logo.png" alt="" /></a></li>
+                        <li><a href="#Facebook"><img src="./public/facebook.png" alt="" /></a></li>
                     </ul>
                     <p>&copy;Todos os meus direitos reservados - 2023</p>
                 </div>
