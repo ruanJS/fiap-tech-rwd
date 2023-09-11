@@ -1,10 +1,11 @@
-import Home from "./routes/Home"
+import React from "react"
 import Header from "./components/Header"
-import Rodape from "./components/Rodape"
-import Integrantes from "./components/Integrantes"
+import Home from "./routes/Home"
 import Problema from "./components/Problema"
 import Solucao from "./components/Solucao"
-import { createElement } from "react";
+import Integrantes from "./components/Integrantes"
+import Rodape from "./components/Rodape"
+import { createElement } from "react"
 
 export default function App() {
   return (
