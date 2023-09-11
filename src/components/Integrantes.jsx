@@ -1,4 +1,4 @@
-export default function Conteudo(){
+export default function Integrantes(){
     return(
         <>
         </>
