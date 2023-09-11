@@ -1,5 +1,4 @@
 import Rodape from "./components/Rodape"
-import Conteudo from "./components/Conteudo"
 import { BrowserRouter, Router, Switch } from "react-router-dom"
 import { createElement } from "react";
 
