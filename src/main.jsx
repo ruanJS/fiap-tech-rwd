@@ -10,12 +10,22 @@ import Integrantes from './components/Integrantes.jsx'
 import Problema from './components/Problema.jsx'
 import Rodape from './components/Rodape.jsx'
 import Solucao from './components/Solucao.jsx'
+import Home from './routes/Home.jsx'
 
 
 const router = createBrowserRouter([
   {path: '/' , 
   element: <App/>,
-  errorElement: <Error404/>
+  errorElement: <Error404/>,
+  children: [
+  {path: '/', element: <Home/>},
+
+  {path: '/problema', element: <Problema/>},
+
+  {path: '/solucao', element: <Solucao/>},
+
+  {path: '/integrantes', element: <Integrantes/>}
+  ]
 }
 ])
 
