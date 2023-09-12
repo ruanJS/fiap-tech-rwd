@@ -8,16 +8,15 @@ export default function Cabecalho(props){
                 <div className="logo"></div>
                 <nav>
                     <ul>
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#problema">Problema</a></li>
-                        <li><a href="#solucao">Solução</a></li>
-                        <li><a href="#integrantes">Integrantes</a></li>
+                        <li><img src="./public/logo-porto2.png" alt=""  width={100} height={140}/></li>
+                        <input type="text" placeholder="  Pesquisar"/>
+                        <button type="submit">🔍</button>
+                        <li><a href="#inicio">INICIO</a></li>
+                        <li><a href="#problema">PROBLEMA</a></li>
+                        <li><a href="#solucao">SOLUÇÃO</a></li>
+                        <li><a href="#integrantes">INTEGRANTES</a></li>
                     </ul>
                 </nav>
-                <div className="input-pesquisa">
-                    <input type="text" placeholder="Pesquisar"/>
-                    <button type="submit">Pesquisar</button>
-                </div>
             </header>
         </>
     )
