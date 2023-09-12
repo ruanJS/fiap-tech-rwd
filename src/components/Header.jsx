@@ -18,7 +18,7 @@ export default function Cabecalho(props){
                         <input type="text" placeholder="  Pesquisar"/>
                         <button type="submit">🔍</button>
                         <li><a href="/inicio">INICIO</a></li>
-                        <li><a href="/problema">PROBLEMA</a></li>
+                        <li><a href="/problema.jsx">PROBLEMA</a></li>
                         <li><a href="/solucao">SOLUÇÃO</a></li>
                         <li><a href="/integrantes">INTEGRANTES</a></li>
                     </ul>
