@@ -4,9 +4,9 @@ import App from './App.jsx'
 import './App.css'
 
 import { createBrowserRouter, Router, RouterProvider } from 'react-router-dom'
-import Integrantes from './components/Integrantes.jsx'
-import Problema from './components/Problema.jsx'
-import Solucao from './components/Solucao.jsx'
+import Integrantes from './routes/Integrantes.jsx'
+import Problema from './routes/Problema.jsx'
+import Solucao from './routes/Solucao.jsx'
 import Home from './routes/Home.jsx'
 
 

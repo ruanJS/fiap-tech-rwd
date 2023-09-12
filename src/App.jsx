@@ -1,9 +1,9 @@
 import React from "react"
 import Header from "./components/Header"
 import Home from "./routes/Home"
-import Problema from "./components/Problema"
-import Solucao from "./components/Solucao"
-import Integrantes from "./components/Integrantes"
+import Problema from "./routes/Problema"
+import Solucao from "./routes/Solucao"
+import Integrantes from "./routes/Integrantes"
 import Rodape from "./components/Rodape"
 import Conteudo from "./components/Conteudo"
 
