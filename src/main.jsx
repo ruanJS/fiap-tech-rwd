@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Integrantes from './routes/Integrantes.jsx'
 import Problema from './routes/Problema.jsx'
 import Solucao from './routes/Solucao.jsx'
-import Home from './routes/Home.jsx'
+import Home from './components/Home.jsx'
 import Erro404 from './routes/Erro404.jsx'
 
 
