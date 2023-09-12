@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import React from 'react'
-export default function Conteudo(){
-    <Link to = '/Problema/' ></Link>
+export default function Home(){
+    
     return(
         <> 
             <div className="label">
