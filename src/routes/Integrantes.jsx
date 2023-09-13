@@ -1,6 +1,7 @@
 export default function Integrantes() {
   return (
     <>
+      <div className="Integrantes">
       <h1>Integrantes</h1>
       <ul>
         <li>Ruan Guedes de Campos - RM551096</li>
@@ -10,6 +11,7 @@ export default function Integrantes() {
         <li>Bruno da Silva Albino Antunes - RM98470</li>
         <li>Rafael Lino - RM551577</li>
       </ul>
+      </div>
     </>
   );
 }

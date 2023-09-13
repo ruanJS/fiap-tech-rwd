@@ -3,7 +3,8 @@ export default function Solucao() {
   <Link to="/solucao/"></Link>;
   return (
     <>
-      <h1>Solucao</h1>
+      <div className="Solucao">
+      <h1>Solução</h1>
       <p>
         Nosso projeto, inicialmente se baseia em um intermediário do processo de
         contato do segurado do nosso cliente e a Porto. Iniciando o contato com
@@ -14,7 +15,11 @@ export default function Solucao() {
         veículo, situação do veículo, e se necessário fotos da placa e da
         situação do veículo.
       </p>
-      <h1>ideias</h1>
+      <img src="./public/fabrica.png" alt="" />
+      </div>
+
+      <div className="Solucao-2">
+      <h1>Ideias</h1>
       <p>
         Para atendimentos pelo telefone, o atendente irá seguir as mesmas
         perguntas do formulário. Caso haja a necessidade o telefonista pedirá
@@ -27,6 +32,8 @@ export default function Solucao() {
         modais que podem ser usados para resolver o problema. Assim, o sistema
         de taxa tarifária decidirá qual será o modal com melhor custo-benefício.
       </p>
+      <img src="./public/ideia.png" alt="" />
+      </div>
     </>
   );
 }

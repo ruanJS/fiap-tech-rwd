@@ -122,6 +122,124 @@ header img {
   
 }
 
+
+/* Conteudo-Problema */
+
+
+.Problemas h1 {
+  margin-top: -60%;
+  margin-left: 60%;
+  width: 263px;
+  font-size: 64px;
+  white-space: nowrap;
+}
+
+.Problemas p {
+  color: #000000;
+  font-family: "Gentium Book Basic-Regular", Helvetica;
+  text-align: center;
+  width: 658px;
+  margin-left: 52%;
+}
+
+.Problemas img {
+  height: 344px;
+  width: 548px;
+  margin-top: -30%;
+  margin-left: 15%;
+}
+
+.Problemas-2 h1 {
+  font-size: 64px;
+  width: 185px;
+  margin-left: 22%;
+  padding: 20px;
+  white-space: nowrap; 
+}
+
+.Problemas-2 p {
+  width: 658px;
+  text-align: center;
+  font-family: "Gentium Book Basic-Regular", Helvetica;
+  margin-left: 250px;
+}
+
+.Problemas-2 img {
+  height: 340px;
+  margin-top: -13%;
+  margin-left: 57%;
+  margin-bottom: -8%;
+}
+
+/* Conteudo-Solucao */
+
+.Solucao h1 {
+  margin-top: -60%;
+  margin-left: 63%;
+  width: 263px;
+  font-size: 64px;
+  white-space: nowrap;
+}
+
+.Solucao p {
+  color: #000000;
+  font-family: "Gentium Book Basic-Regular", Helvetica;
+  text-align: center;
+  width: 658px;
+  margin-left: 52%;
+}
+
+.Solucao img {
+  height: 344px;
+  width: 548px;
+  margin-top: -30%;
+  margin-left: 15%;
+}
+ 
+.Solucao-2 h1 {
+  font-size: 64px;
+  width: 185px;
+  margin-left: 24%;
+  padding: 20px;
+  white-space: nowrap; 
+}
+
+.Solucao-2 p {
+  width: 658px;
+  text-align: center;
+  font-family: "Gentium Book Basic-Regular", Helvetica;
+  margin-left: 250px;
+}
+
+.Solucao-2 img {
+  height: 340px;
+  margin-top: -13%;
+  margin-left: 54%;
+  margin-bottom: 66%;
+}
+
+/* Integrantes */
+
+.Integrantes h1 {
+color: #000;
+font-family: Gentium Book Basic;
+font-size: 50px;
+text-align: center;
+margin-bottom: 100%;
+font-weight: 400;
+}
+
+.Integrantes ul {
+width: 390px;
+height: 446px;
+color: #000;
+font-family: Gentium Book Basic;
+font-size: 25px;
+font-style: normal;
+border: solid 2px red;
+}
+
+
 /* Rodape */
 
 .Footer {
